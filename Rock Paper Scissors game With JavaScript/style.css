@@ -1,0 +1,53 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	background-color: black;
+}
+
+#game-text {
+	display: flex;
+	padding: 30px;
+}
+
+#game-text h1 {
+	font-family: 'Oswald', sans-serif;
+}
+
+#game-text div {
+	width: 100%;
+	background-color: blue;
+	padding: 30px 40px 30px;
+	border: 2px solid black;
+	color: white;
+}
+
+.buttons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.btn {
+	background-color: aqua;
+	color: black;
+	margin: 30px;
+	padding: 20px;
+	border: 2px solid black;
+	border-radius: 8px;
+	cursor: pointer;
+	font-size: 20px;
+	font-family: 'Oswald', sans-serif;
+}
+
+.btn:hover {
+	color: black;
+	background-color: white;
+}
+
+.heading {
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	margin: 20px;
+	font-family: 'Oswald', sans-serif;
+}
